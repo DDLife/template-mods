@@ -14,5 +14,6 @@
       "exclude": ["README", "SUMMARY"],
       "ext": ".lua"
     }
-  ]
+  ],
+  "docsifyPreview.port": 10813
 }

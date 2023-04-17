@@ -13,6 +13,6 @@
 
 ---
 
-the name of a repository: RD-[the id of mod], RD is abbreviation of the word "Read"
+the name of a repository: DST-[the id of mod], id is the same as the steam URL id
 
-仓库的名字: RD-[模组的 id], RD 是 Read 的缩写
+仓库的名字: DST-[模组的 id], id 与 steam URL 中的 id 相同
