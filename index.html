@@ -85,7 +85,7 @@
     <div id="app"></div>
     <script>
       window.gUserName = "DDLife";
-      window.gReposName = "template-docs";
+      window.gReposName = "template-mods";
       window.gBranchName = "main";
     </script>
     <!-- config 给后面使用 -->
@@ -101,9 +101,25 @@
           ext: ".lua",
           remoteRepos: [
             {
-              docs: "https://ddlife.github.io/DST/#/docs/",
+              docs: "https://DDLife.github.io/DST/#/docs/",
               code: "https://github.com/DDLife/DST/blob/main/code/",
               cache: "https://DDLife.github.io/DST/assets/cache/",
+              ext: ".lua",
+            },
+          ],
+        },
+        {
+          docs: "zh/",
+          code: "code/",
+          cache: "assets/cache/zh/",
+          exclude: ["README", "SUMMARY"],
+          global: ["GLOBAL"],
+          ext: ".lua",
+          remoteRepos: [
+            {
+              docs: "https://DDLife.github.io/DST-zh/#/docs/",
+              code: "https://github.com/DDLife/DST-zh/blob/main/code/",
+              cache: "https://DDLife.github.io/DST-zh/assets/cache/",
               ext: ".lua",
             },
           ],
